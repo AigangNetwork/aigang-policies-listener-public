@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Policies.Listener", "Aigang.Policies.Listener\Aigang.Policies.Listener.csproj", "{DCBF969F-6620-4561-8AB5-10920FF4D0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Policies.Utils", "Aigang.Policies.Utils\Aigang.Policies.Utils.csproj", "{8369E181-7C05-42A2-904B-38E68C322032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Policies.Repository", "Aigang.Policies.Repository\Aigang.Policies.Repository.csproj", "{38B27373-11D6-4695-ACB4-98B5D1BE581E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Policies.Domain", "Aigang.Policies.Domain\Aigang.Policies.Domain.csproj", "{50D29794-F7A8-41E7-99D6-208F57CA966C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1D64818C-C77F-4221-A817-B2C53EC4F1A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{FAABC3B4-3A31-4C39-933C-4A640D60041A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aigang.Contracts.Executor.Api.Client", "Aigang.Contracts.Executor.Api.Client\Aigang.Contracts.Executor.Api.Client.csproj", "{7A4085E4-B877-47DE-9BF1-E0CA1005FC51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCBF969F-6620-4561-8AB5-10920FF4D0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBF969F-6620-4561-8AB5-10920FF4D0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBF969F-6620-4561-8AB5-10920FF4D0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCBF969F-6620-4561-8AB5-10920FF4D0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8369E181-7C05-42A2-904B-38E68C322032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8369E181-7C05-42A2-904B-38E68C322032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8369E181-7C05-42A2-904B-38E68C322032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8369E181-7C05-42A2-904B-38E68C322032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B27373-11D6-4695-ACB4-98B5D1BE581E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B27373-11D6-4695-ACB4-98B5D1BE581E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B27373-11D6-4695-ACB4-98B5D1BE581E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B27373-11D6-4695-ACB4-98B5D1BE581E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D29794-F7A8-41E7-99D6-208F57CA966C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D29794-F7A8-41E7-99D6-208F57CA966C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D29794-F7A8-41E7-99D6-208F57CA966C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D29794-F7A8-41E7-99D6-208F57CA966C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAABC3B4-3A31-4C39-933C-4A640D60041A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAABC3B4-3A31-4C39-933C-4A640D60041A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAABC3B4-3A31-4C39-933C-4A640D60041A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAABC3B4-3A31-4C39-933C-4A640D60041A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4085E4-B877-47DE-9BF1-E0CA1005FC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4085E4-B877-47DE-9BF1-E0CA1005FC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4085E4-B877-47DE-9BF1-E0CA1005FC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4085E4-B877-47DE-9BF1-E0CA1005FC51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAABC3B4-3A31-4C39-933C-4A640D60041A} = {1D64818C-C77F-4221-A817-B2C53EC4F1A2}
+	EndGlobalSection
+EndGlobal

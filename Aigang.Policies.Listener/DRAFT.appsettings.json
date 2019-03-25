@@ -1,0 +1,13 @@
+﻿{
+  "AppName": "DEV.Aigang.Policies.Listener",   // Application name used for logging
+
+  "CancelAgeInHours": 24,                      // If payment is not received cancel policies after this time
+  "CheckCycleS": 60,                           // Check policies from database after each n seconds
+  
+  "ContractsExecutor:Address": "https://contractsexecutor/api/",  // Contracts.Exeturor.API http address
+  "ContractsExecutor:Secret": "aaa",                              // Contracts.Exeturor.API api key
+  
+  "ConnectionStrings": {
+    "MySql": " *** "                                              // Connection string to Policies DB
+  }
+}
